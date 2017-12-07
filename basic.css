@@ -134,7 +134,7 @@ main {
 }
 
 main section {
-    padding-right: 25%;
+    padding-right: 450px;
     display: flex;
     flex-direction: column;
 }
@@ -354,7 +354,13 @@ img.full-width {
     color: #437a8a;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    main section {
+        padding-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     main section {
         padding-right: 0;
     }
