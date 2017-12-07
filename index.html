@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Portfolio | Zsofia Burgundi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Burgundi Zsofia">
+<meta name="description" content="I'm Burgundi Zsofia UI/UX designer. This page contains my portfolio.">
+<link rel="stylesheet" type="text/css" href="basic.css">
+<body>
+
+    <nav>
+        <section>
+            <a href="index.html" class="active">Work</a>
+            <a href="about.html">About</a>
+            <a href="index.html">Burgundi Zsofia</a>
+        </section>
+    </nav>
+
+    <main class="work">
+        <section>
+            <div class="left-column">
+                <div class="heading">
+                    <h1>
+                        Hello, my name is Zsofia
+                    </h1>
+                    <p>
+                        I am a Vienna based designer specialize in <br> UI / UX,
+                        with a keen interest in visual design.
+                    </p>
+                </div>
+                <a href="wegfinder.html" class="tile" style="background-color: #EFE7ED">
+                    <h3>
+                        wegfinder
+                    </h3>
+                    <img class="device" src="assets/images/wegfinder/mobile-work.png" alt="wegfinder" />
+                </a>
+                <div class="contact">
+                    <h3>
+                        If you have any work inquires or just want to say hello feel free to email me.
+                    </h3>
+                    <a href="mailto:burgundizs@gmail.com" class="button">
+                        contact me
+                    </a>
+                </div>
+            </div>
+            <div class="right-column">
+                <a href="discoveraustria.html" class="tile" style="background-color: #F5F1F1">
+                    <h3>
+                        Discover Austria
+                    </h3>
+                    <img src="assets/images/discover-austria/mac-main.png" alt="Discover Austria" />
+                </a>
+                <a href="campapp.html" class="tile" style="background-color: rgba(178,188,209,0.5)">
+                    <h3>
+                        Camp App
+                    </h3>
+                    <img class="device" src="assets/images/camp-app/mobile-work.png" alt="Camp App" />
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>
+                Zsofia Burgundi - <span>UI / UX Designer</span>
+            </p>
+            <a href="mailto:burgundizs@gmail.com">
+                <img src="assets/svgs/email.svg" alt="burgundizs@gmail.com"/>
+            </a>
+            <a href="">
+                <img src="assets/svgs/linkedin.svg" alt="LinkedIn"/>
+            </a>
+        </section>
+    </footer>
+</body>
+</html>
+<script>
+    window.addEventListener('scroll', function(){
+        if(window.scrollY > 0) {
+            document.querySelector("nav").classList.add('active');
+        }
+
+    })
+</script>
